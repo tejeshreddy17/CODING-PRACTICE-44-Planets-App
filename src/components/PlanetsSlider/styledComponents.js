@@ -2,6 +2,12 @@
 import styled from 'styled-components'
 
 export const AppBackground = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+  padding: 40px;
+
   background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
 `
 
